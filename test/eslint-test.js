@@ -3,7 +3,7 @@
 var lint = require('mocha-eslint');
 
 describe('Lint source', function() {
-  lint(['index.js', 'mocha.js']);
+  lint(['index.js', 'helpers.js', 'mocha.js']);
 });
 
 describe('Lint test', function() {
